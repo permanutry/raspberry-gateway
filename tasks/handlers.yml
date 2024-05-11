@@ -27,7 +27,7 @@
     restarted: true
   become: false
 
-- name: Restart raspi-monitoring
+- name: Restart Raspberry monitoring
   community.docker.docker_compose:
     project_src: "{{ config_dir }}/monitoring/"
     build: false
@@ -72,6 +72,13 @@
 - name: Restart qbitTorrent
   community.docker.docker_compose:
     project_src: "{{ config_dir }}/qbittorrent/"
+    build: false
+    restarted: true
+  become: false
+
+- name: Restart Samba
+  community.docker.docker_compose:
+    project_src: "{{ config_dir }}/samba-server/"
     build: false
     restarted: true
   become: false

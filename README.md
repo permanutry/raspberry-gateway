@@ -27,8 +27,7 @@ Overall, this Raspberry Pi Home Internet Gateway provides a universal solution f
 # Installation
   1. Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html):
      ```shell 
-     sudo apt-get install -y python3-pip
-     pip3 install ansible
+     sudo apt-get install -y git ansible python3-pip 
      ```
   2. Clone this repository: 
      ```shell
@@ -406,12 +405,12 @@ Overall, this Raspberry Pi Home Internet Gateway provides a universal solution f
   * [**Jeff Geerling**](https://github.com/geerlingguy) aka [@geerlingguy](https://github.com/geerlingguy) for all his efforts to keep us interesting in Raspberry Pi compiters and for [all his videos on youtube](https://www.youtube.com/c/JeffGeerling). Cosider to Like and Subscribe 
 
 ### Kudos to all folks maintaining:
-  * [**Pi-hole**](https://pi-hole.net)
-  * [**Unbound DNS**](https://nlnetlabs.nl/projects/unbound/about/)
-  * [**Technitium-dns**](https://technitium.com/dns/)
+  * [**Pi-hole**](https://github.com/pi-hole)
+  * [**Unbound DNS**](https://github.com/NLnetLabs)
+  * [**Technitium-dns**](https://github.com/TechnitiumSoftware/DnsServer)
   * [**Gluetun**](https://github.com/qdm12/gluetun)
-  * [**qBittorrent**](https://www.qbittorrent.org)
-  * [**Portainer**](https://www.portainer.io)
+  * [**qBittorrent**](https://github.com/qbittorrent)
+  * [**Portainer**](https://github.com/portainer)
   * [**wireguard-ui**](https://github.com/ngoduykhanh/wireguard-ui)
   * [**cAdviser**](https://github.com/d3vilh/cadvisor) and 
   * other pieces of software used in this project.
